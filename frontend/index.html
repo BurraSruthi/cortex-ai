@@ -1439,9 +1439,7 @@ table.alloc-table tr:last-child td{ border-bottom:none; }
   ];
 
   /* ===================== CORTEX AI REAL BACKEND API LAYER ===================== */
-  const API_BASE = (window.location.port === '8000' || window.location.port === '')
-    ? '/api'
-    : 'http://localhost:8000/api';
+  const API_BASE = 'https://cortex-ai-backend-uevq.onrender.com/api';
   async function apiFetch(path, options={}){
     const token = state.token || safeSessionGet('cortexToken');
     const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
