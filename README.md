@@ -1,4 +1,4 @@
-# Cortex AI – Personal Money-Balancing & Financial Decision-Support System
+# Cortex AI
 
 ## 🌐 Live Application
 
